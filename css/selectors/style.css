@@ -1,0 +1,19 @@
+/* element selectors */
+p{
+    color: blue;
+}
+
+/* id selectors */
+#secondParagraph{
+    color: red;
+}
+
+/* grouping selectors */
+h1, p{
+    color: chartreuse;
+}
+
+/* class selector */
+.kg_test{
+   color:teal 
+}
