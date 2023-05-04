@@ -2,3 +2,10 @@ CSS:
     - Cascading style sheets
     - provides style to raw html
     - helps build responsive websites
+
+CSS Syntax:
+    selector { property : value ;}
+    example --> img { width: 30px;}
+
+    - you can group p, a, and main tags together and apply the same style to them 
+    p, a, main { background-color: white}
