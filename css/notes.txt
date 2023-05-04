@@ -2,6 +2,9 @@ CSS:
     - Cascading style sheets
     - provides style to raw html
     - helps build responsive websites
+    - added directly using style attribute
+    - inside head tags in <style> tags
+    - or through css file
 
 CSS Syntax:
     selector { property : value ;}
@@ -9,3 +12,4 @@ CSS Syntax:
 
     - you can group p, a, and main tags together and apply the same style to them 
     p, a, main { background-color: white}
+
