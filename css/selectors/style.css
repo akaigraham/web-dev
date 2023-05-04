@@ -1,3 +1,10 @@
+/* universal selectors */
+/* this means that no matter what is in the css file, everything will have 0 margin and 0 padding */
+*{
+    margin: 0;
+    padding:0;
+}
+
 /* element selectors */
 p{
     color: blue;
@@ -17,3 +24,11 @@ h1, p{
 .kg_test{
    color:teal 
 }
+
+/* all p tags in div tag */
+div p{
+    background-color: aqua;
+}
+
+/* all the p tags where the parent is div */
+/* div>p */
