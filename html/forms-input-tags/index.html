@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    
+    <!-- action is where the backend file is -->
+    <!-- it can be any file type -->
+    <form action="backend.php">
+        <!-- input tags -->
+        <!-- name is a variable that can be accesed from backend files -->
+        <!-- placeholder will display placeholder text -->
+        <!-- div is like a container -- store something within the container -->
+        <div>
+            Name: <input type="text" name="studentName" value="" placeholder="Enter your name">
+        </div>
+        <div>
+            Contact number: <input type="number" name="contactNumber" id="">
+        </div>
+        <div>
+            Email: <input type="email" name="email" id="">
+        </div>
+        <br>
+
+        <!-- radio buttons -->
+        <div>
+            Gender: Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id="">
+        </div>
+
+        <!-- check boxes -->
+        <!-- checked sets the box to be selected by default -->
+        <div>
+            Do you accept terms? <input type="checkbox" name="checkbox" id="" checked>
+        </div>
+
+        <div>
+            DOB: <input type="date" name="birthdate" id="">
+        </div>
+
+        <!-- Upload based on file selection -->
+        <div>
+            Upload image: <input type="file" name="img_file" id="">
+        </div>
+
+        <!-- specify filetypes -->
+        <!-- This means all image formats are accepted -->
+        <div>
+            Upload image: <input type="file" name="img_file_2" id="" accept="image/*">
+        </div>
+
+        <br>
+        <!-- big text area -->
+        Residential address: <br><textarea name="address" id="" cols="30" rows="10"></textarea>
+
+        <!-- select tag -->
+        <div>
+            Web Dev<select name="options" id="">
+                <option value="">Frontend</option>
+                <option value="">Backend</option>
+                <option value="">Full stack</option>
+            </select>
+        </div>
+
+    </form>
+
+    <form action="backend1.php">
+        <!-- label -->
+        <label for="studentName">Name:</label>
+        <input type="text" name="studentName" id="studentName" value="" placeholder="Enter your name">
+    </form>
+
+    <!-- buttons -->
+    <!-- inside value put text that will display inside that button -->
+    <input type="submit" value="Submit Form">
+
+    <!-- This will reset the form and everything entered will be wiped-->
+    <input type="reset" value="Reset Form">
+    
+
+</body>
+</html>
