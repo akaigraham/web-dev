@@ -2,9 +2,8 @@ CSS:
     - Cascading style sheets
     - provides style to raw html
     - helps build responsive websites
-    - added directly using style attribute
-    - inside head tags in <style> tags
-    - or through css file
+    - Inline, internal and external ways of linking CSS
+    - Inline is highest priority, then internal, then external
 
 CSS Syntax:
     selector { property : value ;}
