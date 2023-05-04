@@ -12,3 +12,12 @@ CSS Syntax:
     - you can group p, a, and main tags together and apply the same style to them 
     p, a, main { background-color: white}
 
+CSS selectors:
+    - allows user / compiler to find HTML with properties to be set 
+
+    Types of selectors:
+        - element selectors
+        - ID selectors
+        - class selectors
+        - grouping selectors 
+        
